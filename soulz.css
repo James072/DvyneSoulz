@@ -129,6 +129,20 @@ legend {
     border: 1px solid black;
 }
 
+#intro_title {
+    color: #3ea99f;
+    -webkit-text-stroke: 0.4px;
+    -webkit-text-stroke-color: black;
+}
+
+#intro_statement {
+    color: #3ea99f;
+    -webkit-text-stroke: 0.4px;
+    -webkit-text-stroke-color: black;
+}
+
+
+
 
 
 @media screen and (max-width: 1334px) {
