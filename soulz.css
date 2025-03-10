@@ -1,0 +1,164 @@
+header {
+    background-color: #3ea99f;
+    border-bottom: 2px solid black;
+}
+
+ul li a {
+    text-decoration: none;
+    margin: 15px;
+}
+
+ul li a:link {
+    color:black;
+}
+
+ul li a:visited {
+    color:black;
+}
+
+ul li a:hover {
+    color:yellow;
+}
+
+footer {
+    background-color: #3ea99f;
+}
+
+footer a {
+    text-decoration: none;
+    margin: 15px;
+}
+
+footer a:link {
+    color:black;
+}
+
+footer a:visited {
+    color:black;
+}
+
+footer a:hover {
+    color:yellow;
+}
+
+#kos_section {
+    background-color: yellow;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+#traits_link {
+    background-image: url(images/red_paintstroke.png);/*https://www.citypng.com/photo/14424/hd-red-paint-brush-effect-png*/
+    background-size: 130% 100%;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color:green;
+    -webkit-text-stroke: 0.4px;
+    -webkit-text-stroke-color: black;
+}
+
+#traits_link:visited {
+    color:green;
+}
+
+#traits_link:hover {
+    color:lightgreen;
+}
+
+#traits_graph {
+    background-color: #ffa500;
+    border-right: 5px solid black;
+    border-top: 5px solid black;
+}
+
+#message_graph {
+    background-color: #43bfc7;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+/*#mission {
+    background-color: #3ea99f;
+}*/
+
+/*#purpose {
+    background-color: #3ea99f;
+}*/
+
+#nine_seven {
+    text-decoration: none;
+    color: green;
+}
+
+#nine_seven:link {
+    color: green;
+}
+
+#logo2 {
+    width: 450px;
+}
+
+#soulz_1 {
+    margin-top: -35%;
+    margin-left: 0%;
+    z-index: 10;
+}
+
+#soulz_3 {
+    margin-top: -70%;
+}
+
+#traits_container {
+    border: 1px solid black;
+    background-color: #3ea99f;
+}
+
+#traits_container2 {
+    border: 1px solid black;
+    background-color: #3ea99f;
+}
+
+fieldset {
+    border: 1px solid black;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: #FFFFC2;
+}
+
+legend {
+    border: 1px solid black;
+}
+
+#intro_title {
+    color: #3ea99f;
+    -webkit-text-stroke: 0.4px;
+    -webkit-text-stroke-color: black;
+}
+
+#intro_statement {
+    color: #3ea99f;
+    -webkit-text-stroke: 0.4px;
+    -webkit-text-stroke-color: black;
+}
+
+
+
+
+
+@media screen and (max-width: 1334px) {
+    #soulz_1 {
+        margin-left: 10%;
+    }
+}
+
+@media  screen and (max-width: 1245px) {
+    #soulz_1 {
+        margin-left: 20%;
+    }
+}
+
+@media  screen and (max-width: 1112px) {
+    #logo2 {
+        width: 350px;
+    }
+}

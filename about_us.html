@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Dvyne Soulz - About Dvyne Soulz</title>
+        <meta  charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="a website for support of non profit organization">
+        <meta name="keywords" content="dvyne, divine, soulz, souls, organization, non profit, lincoln, omaha, 
+              nebraska, community, civic, engagement, web, development">
+        <meta name="robots" content="nofollow">
+        <meta name="pragma" content="no-cache">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="soulz.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="row">
+                <div class="col mt-3">
+                    <img src="images/divine_soulz_logo2.gif" alt="divine souls logo" class="figure-img img-fluid mx-auto d-block ms-0" 
+                    id="logo2">
+                    <h1 class="text-dark fw-bold ms-5 ps-3">Dvyne Soulz, Inc</h1>
+                </div>
+                <div class="col mt-3">
+                    <ul class="nav justify-content-center mb-4">
+                        <li class="nav-item pe-2"><a class="fw-bold" href="home.html">Home</a></li>
+                        <li class="nav-item pe-2"><a class="fw-bold" href="about_us.html">About Dvyne Soulz</a></li>
+                        <li class="nav-item pe-2"><a class="fw-bold" href="curriculum.html">T.R.A.I.T.S.</a></li>
+                        <li class="nav-item pe-2"><a class="fw-bold" href="donations.html">Donate</a></li>
+                        <li class="nav-item pe-2"><a class="fw-bold" href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <script>
+            var missionStatement = "Our mission is to provide single, Black Fathers and Black youth the resources to assist " 
+                                 + "them in developing necessary life skills and to seek understanding of behavioral health " 
+                                 + "issues that are found to be at the root of many of the problems our men and children face. "  
+                                 + "We desire to create opportunities for awareness and education to empower individuals and " 
+                                 + "families, providing an environment in which to unite the people and grow stronger as a " 
+                                 + "community." 
+
+            var visionStatement = "We see a future where single, Black fathers have access to the necessary resources that will enrich their " 
+                                + "lives mentally, physically and spiritually, as well as improving their role as fathers to their own " 
+                                + "children.  By improving their relationship(s) with their own children, we envision a greater presence of " 
+                                + "black men in the community making connections with the youth in order to guide them onto the right path. "  
+                                + "We have determined that as these relationships grow, more opportunities for the youth will be implemented."
+
+            var purposeStatement = "Our goal is to build a center which will house a learning facility providing in-house programs, along " 
+                                 + "with a halfway home for fathers returning to society.  Our facility will offer trades and job resources, " 
+                                 + "while providing a positive adaptation back into society for both adults and youth."
+
+            var founderWords = "Having lived the reality of a single, Black father who was once homeless, I learned all too " 
+                             + "well about the severely limited, to almost no training or resources to assist my situation. " 
+                             + "There weren't many options and opportunities were scarce.  I was also awakened to the " 
+                             + "reality of countless others in the same situation.<br><br> "
+                        
+                             + "Being a Blackman in America has never been easy.  When you add the role of single father, it " 
+                             + "becomes even harder, as there are no instructions provided.  Let me say that it has also " 
+                             + "been hard for single, Black mothers, yet, there are numerous safe places and organizations " 
+                             + "set up to assist them with their needs and the everyday struggle of parenting, also " 
+                             + "providing housing, educational services, and more!  Similar services/resources should be " 
+                             + "made available to Black fathers as well.<br><br> "
+                        
+                             + "Black fathers are vital to our youth's structure, discipline, and mental health.  By " 
+                             + "providing resources to help these men rise from a feeling of being on the low-rung of " 
+                             + "society, we will instill the confidence and pride within each of them so they can step " 
+                             + "back into a major role of guiding the youth and leading the community in a positive " 
+                             + "direction."
+
+            function mission() {
+                document.getElementById("missionCol").innerHTML = missionStatement;
+                document.getElementById("mission").style.backgroundColor = "yellow";
+            }
+
+            function vision() {
+                document.getElementById("visionCol").innerHTML = visionStatement;
+                document.getElementById("vision").style.backgroundColor = "orange";
+            }
+
+            function purpose() {
+                document.getElementById("purposeCol").innerHTML = purposeStatement;
+                document.getElementById("purpose").style.backgroundColor = "#3ea99f";
+            }
+
+            function founder() {
+                document.getElementById("deon_speech").innerHTML = founderWords;
+            }
+        </script>
+
+        <!-- container for logo and page title -->
+        <div class="container mt-4 justify-content-center">
+            <h3 class="text-center fw-bold">About Dvyne Soulz</h3>
+            <p class="text-center fw-bold">
+                Please click on each title to learn more!
+            </p>
+        </div>
+        
+        <!-- mission statement section-->
+        <section id="mission">
+            <br>
+            <div class="container-lg">
+                <div class="row justify-content-center">
+                    <button type="button" class="btn btn-lg fw-bold w-25" id="onebutt" name="button1" onclick="mission()">
+                        <h2 class="text-center fw-bold">Mission</h2></button>
+                    <div class="col-xl-10 col-lg-8 col-md-8 col-sm-8 text-center text-dark mb-5" id="missionCol">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- vision statement section -->
+        <section id="vision">
+            <br>
+            <div class="container-lg">
+                <div class="row justify-content-center">
+                    <button type="button" class="btn btn-lg fw-bold w-25" id="twobutt" name="button2" onclick="vision()">
+                        <h2 class="text-center fw-bold">Vision</h2></button>
+                    <div class="col-xl-10 col-lg-8 col-md-8 col-sm-8 text-center text-dark mb-5" id="visionCol">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- statement of purpose section-->
+        <section class="mb-3" id="purpose">
+            <br>
+            <div class="container-lg">
+                <div class="row justify-content-center">
+                    <button type="button" class="btn btn-lg fw-bold w-25" id="threebutt" name="button3" onclick="purpose()">
+                        <h2 class="text-center fw-bold">Purpose</h2></button>
+                    <div class="col-xl-10 col-lg-8 col-md-8 col-sm-8 text-center text-dark mb-5" id="purposeCol">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- history of dvyne soulz section -->
+        <section class="mt-5" id="history">
+            <div class="container-lg mt-3">
+                <div class="row justify-content-center">
+                    <button type="button" class="btn btn-lg fw-bold w-75" id="threebutt" name="button3" onclick="founder()">
+                        <h2 class="text-center fw-bold">Words From The Founder</h2></button>
+                    <div class="col-xl-6" id="deon_pic">
+                        <figure class="figure">
+                            <img src="images/deonjackson.gif" class="figure-img img-fluid mx-auto d-block rounded 
+                                 border border-dark" id="founder_pic" style="box-shadow: 5px 5px 5px #000000;"
+                                 alt="picture of divine souls founder deon jackson">
+                            <figcaption class="figure-caption fw-bold">
+                                Dvyne Soulz founder, Deon Jackson
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <!-- Deon's words -->
+                    <div class="col-xl-6 text-center" id="deon_speech">
+                    </div>
+                <div class="row justify-content-end">
+                    <div class="col-xxl-4 text-center">
+                        <img src="images/soulz_3.jpeg" class="figure-img img-fluid mx-auto d-block rounded 
+                            border border-dark" id="soulz_3" style="width: 370px; height: 300px; box-shadow: 5px 5px 5px #000000;"
+                            alt="picture of divine souls founder deon jackson with his children">
+
+                        <a class="text-success fw-bold" href="donations.html">Click here to make a donation to Dvyne Soulz</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <nav class="container mt-3">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item small"><a class="nav-link fw-bold" href="home.html"><small>Home</small></a></li>
+                    <li class="nav-item small"><a class="nav-link fw-bold" href="about_us.html"><small>About Dvyne Soulz</small></a></li>
+                    <li class="nav-item small"><a class="nav-link fw-bold" href="curriculum.html"><small>T.R.A.I.T.S.</small></a></li>
+                    <li class="nav-item small"><a class="nav-link fw-bold" href="donations.html"><small>Donate</small></a></li>
+                    <li class="nav-item small"><a class="nav-link fw-bold" href="contact.html"><small>Contact Us</small></a></li>
+                </ul>
+            </nav>
+            
+            <p class="text-warning text-center mt-3">
+                <small>Dvyne Soulz, INC | 117 South 27th Street | Lincoln, NE  68510 | Phone: 402-318-7366
+                </small>
+            </p>
+            
+            
+            <p class="mt-3 text-center" style="font-size: 9pt;"><small>Copyright &copy; 2024-2025 Dvyne Soulz, Inc. 
+                    All Rights Reserved | Web Design: Full Stack Consulting & Development</small>
+            </p>
+        </footer>
+    </body>
+</html>
